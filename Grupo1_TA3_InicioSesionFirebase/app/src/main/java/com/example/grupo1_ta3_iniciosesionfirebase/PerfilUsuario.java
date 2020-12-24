@@ -63,9 +63,4 @@ public class PerfilUsuario extends AppCompatActivity {
         Intent intent = new Intent(this, registros.class);
         startActivity(intent);
     }
-
-
-
-
-
 }
