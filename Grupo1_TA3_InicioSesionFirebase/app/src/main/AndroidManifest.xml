@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.grupo1_ta3_iniciosesionfirebase">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,7 +11,9 @@
         android:roundIcon="@mipmap/ic_portada_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Grupo1_TA3_InicioSesionFirebase">
-        <activity android:name=".splash"
+        <activity android:name=".registros"></activity>
+        <activity
+            android:name=".splash"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,13 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PerfilUsuario"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            />
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-
-        </activity>
+        <activity
+            android:name=".PerfilUsuario"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

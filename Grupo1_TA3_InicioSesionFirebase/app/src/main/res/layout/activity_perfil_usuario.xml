@@ -78,27 +78,6 @@
         android:textColor="#837C7C"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/bangers"
-        android:gravity="center"
-        android:text="PROVEDOR ID"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/txt_provedor_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Telefono"
-        android:textColor="#837C7C"
-        android:textSize="18sp" />
-
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="wrap_content"
@@ -106,4 +85,12 @@
         android:layout_marginTop="20dp"
         android:onClick="cerrarSesion"
         android:text="CERRAR SESION" />
+
+    <Button
+        android:id="@+id/btnVerRegistros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="irRegistros"
+        android:text="VER REGISTROS" />
 </LinearLayout>
